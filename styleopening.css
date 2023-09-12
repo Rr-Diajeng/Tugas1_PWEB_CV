@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('assets/oren=bg.png'); 
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+}
+
+header {
+    background-color: #333; /* Background color for the header */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
+    padding: 20px;
+    background-color: rgb(184, 157, 157);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.bag1 p{
+    font-size: 20px;
+}
+
+/* Style the "area" sections */
+.area {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.area h2 {
+    margin-top: 0;
+}
+
+/* Style the footer */
+footer {
+    margin-top: 292px;
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ae7668; /* Warna latar belakang tombol */
+    color: white; /* Warna teks tombol */
+    text-decoration: none; /* Menghapus garis bawah default untuk tautan */
+    border-radius: 5px; /* Membuat sudut tombol melengkung */
+    transition: background-color 0.3s; /* Efek perubahan warna ketika hover */
+}
+
+.btn:hover {
+    background-color: #0056b3; /* Warna latar belakang saat tombol dihover */
+}
